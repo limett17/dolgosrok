@@ -1,5 +1,5 @@
 const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database('C:/Users/Мой компьютер/Desktop/гприпьрьм/dolgosrok/db.sqlite3');
+const db = new sqlite3.Database('db.sqlite3');
 
 class Database{
    static all(query, cb){
