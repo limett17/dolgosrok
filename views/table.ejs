@@ -1,0 +1,23 @@
+<%- include ('head'); -%>
+
+
+<div id="tableData">
+   <ul class="columns">
+      <% columns.forEach((column)=>{ %>
+      <li class="column">
+         <%= column %>
+      </li>
+      <% }) %>
+   </ul>
+   <% data.forEach((row)=>{ %>
+      <ul class="row_container">
+         <% row.forEach((value)=>{ %>
+            <li class="row-data">
+               <%= value %>
+            </li>
+         <% }) %>
+      </ul>
+   <% }) %>
+</div>
+
+<%- include ('foot'); -%>

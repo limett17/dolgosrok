@@ -1,0 +1,97 @@
+._container {
+
+   padding-left: 40px;
+   padding-right: 40px;
+
+}
+
+h1 {
+   text-align: center;
+}
+
+.top-section {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   flex-direction: row;
+   align-items: center;
+}
+
+.label,
+.top-section-button {
+   flex: 0 1 15%
+}
+
+.input {
+   flex: 0 1 70%
+}
+
+#query {
+
+   height: 30px;
+
+}
+
+.main-screen {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   margin-top: 20px;
+}
+
+.left-block {
+   flex: 0 1 10%;
+
+}
+
+#tableButtons {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+
+
+}
+
+.center-block {
+   flex: 0 1 90%;
+
+}
+
+#tableData {
+   background-color: grey;
+
+
+}
+
+.columns {
+   display: flex;
+   width: 1000px;
+
+
+}
+
+.column {
+   flex: 0 1 33%;
+   font-weight: bold;
+   gap: 20px;
+}
+
+.row_container {
+   display: flex;
+   width: 1000px;
+}
+
+.row-data {
+   gap: 20px;
+   flex: 0 1 20%;
+}
+
+li {
+   list-style: none;
+   gap: 20px;
+}
+
+/* #pagination{
+   text-align: center;
+   margin-top: 5px;
+} */
