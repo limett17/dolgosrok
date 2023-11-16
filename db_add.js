@@ -1,7 +1,7 @@
 const sqlite3 = require('sqlite3').verbose()
 
-const sourceDb = new sqlite3.Database('C:/Users/Мой компьютер/Desktop/гприпьрьм/dolgosrok/twiiter_tag.sqlite3');
-const db = new sqlite3.Database('C:/Users/Мой компьютер/Desktop/гприпьрьм/dolgosrok/db.sqlite3');
+const sourceDb = new sqlite3.Database('twiiter_tag.sqlite3');
+const db = new sqlite3.Database('db.sqlite3');
 
 const limit = 10; 
 let offset = 0;    
